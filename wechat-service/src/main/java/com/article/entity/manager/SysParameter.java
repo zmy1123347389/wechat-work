@@ -1,4 +1,4 @@
-package com.article.entity;
+package com.article.entity.manager;
 
 /**
  * SysParameter entity. @author MyEclipse Persistence Tools

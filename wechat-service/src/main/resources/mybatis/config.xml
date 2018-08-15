@@ -4,7 +4,7 @@
 <configuration>
 
 	<plugins>
-		<plugin interceptor="com.huanyu.plugin.PagePlugin">
+		<plugin interceptor="com.article.config.page.PagePlugin">
 			<property name="dialect" value="mysql" />
 			<property name="pageSqlId" value=".*listPage.*" />
 		</plugin>

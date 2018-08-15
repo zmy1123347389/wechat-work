@@ -34,8 +34,8 @@
 
 
 		<dependency>
-			<groupId>com.mingyizhi</groupId>
-			<artifactId>mingyizhi-service</artifactId>
+			<groupId>com.article</groupId>
+			<artifactId>wechat-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
