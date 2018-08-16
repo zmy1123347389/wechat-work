@@ -112,6 +112,17 @@
 		<servlet-name>springMVC</servlet-name>
 		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
+	
+	<security-constraint> 
+	   <web-resource-collection > 
+			  <web-resource-name >SSL</web-resource-name> 
+			  <url-pattern>/*</url-pattern> 
+	   </web-resource-collection>
+							 
+	   <user-data-constraint> 
+			  <transport-guarantee>CONFIDENTIAL</transport-guarantee> 
+	   </user-data-constraint> 
+	</security-constraint>
 
 	<!--Shiro过滤器 -->
 	<!-- <filter> <filter-name>shiroFilter</filter-name> <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class> 
